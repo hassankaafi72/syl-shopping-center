@@ -120,7 +120,7 @@ export default function Navbar({ onCartClick }: NavbarProps) {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/25261000000"
+              href="https://wa.me/252619550772"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-amber-500/10 to-yellow-500/10 border border-yellow-500/20 hover:border-yellow-500/50 hover:bg-yellow-500/10 text-yellow-400 text-sm font-semibold transition-all duration-300"
@@ -185,7 +185,7 @@ export default function Navbar({ onCartClick }: NavbarProps) {
 
               <div className="pt-3 space-y-2">
                 <a
-                  href="https://wa.me/25261000000"
+                  href="https://wa.me/252619550772"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-bold text-sm transition-all"

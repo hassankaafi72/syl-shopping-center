@@ -60,7 +60,7 @@ export default function HomeClient({ initialProducts }: HomeClientProps) {
   const getCartTotal = useCart((state) => state.getCartTotal);
   const clearCart = useCart((state) => state.clearCart);
 
-  const SELLER_WHATSAPP_NUMBER = '25261000000';
+  const SELLER_WHATSAPP_NUMBER = '252619550772';
 
   useEffect(() => {
     setMounted(true);
@@ -444,7 +444,7 @@ export default function HomeClient({ initialProducts }: HomeClientProps) {
                     <form onSubmit={handleCheckout} className="space-y-3">
                       {[
                         { label: 'Full Name', id: 'name', type: 'text', value: customerName, setter: setCustomerName, placeholder: 'Fadumo Ali', error: checkoutErrors.name },
-                        { label: 'Phone Number', id: 'phone', type: 'tel', value: customerPhone, setter: setCustomerPhone, placeholder: '+252 61 000 0000', error: checkoutErrors.phone },
+                        { label: 'Phone Number', id: 'phone', type: 'tel', value: customerPhone, setter: setCustomerPhone, placeholder: '+252 61 955 0772', error: checkoutErrors.phone },
                       ].map(({ label, id, type, value, setter, placeholder, error }) => (
                         <div key={id}>
                           <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">{label}</label>

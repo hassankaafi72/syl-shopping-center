@@ -77,7 +77,7 @@ export default function ProductsClient({ initialProducts, initialCategories }: P
   const getCartTotal = useCart((s) => s.getCartTotal);
   const clearCart = useCart((s) => s.clearCart);
 
-  const SELLER_WHATSAPP = '25261000000';
+  const SELLER_WHATSAPP = '252619550772';
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -416,7 +416,7 @@ export default function ProductsClient({ initialProducts, initialCategories }: P
                     <form onSubmit={handleCheckout} className="space-y-3">
                       {[
                         { label: 'Full Name', type: 'text', value: customerName, setter: setCustomerName, placeholder: 'Fadumo Ali', error: checkoutErrors.name },
-                        { label: 'Phone Number', type: 'tel', value: customerPhone, setter: setCustomerPhone, placeholder: '+252 61 000 0000', error: checkoutErrors.phone },
+                        { label: 'Phone Number', type: 'tel', value: customerPhone, setter: setCustomerPhone, placeholder: '+252 61 955 0772', error: checkoutErrors.phone },
                       ].map(({ label, type, value, setter, placeholder, error }) => (
                         <div key={label}>
                           <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1.5">{label}</label>

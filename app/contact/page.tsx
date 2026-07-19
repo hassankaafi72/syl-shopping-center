@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const SELLER_WHATSAPP = '25261000000';
+const SELLER_WHATSAPP = '252619550772';
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -61,7 +61,7 @@ export default function ContactPage() {
     {
       Icon: Phone,
       label: 'WhatsApp & Phone',
-      value: '+252 61 000 0000',
+      value: '+252 61 955 0772',
       sub: 'Available 8am – 10pm daily',
       href: `https://wa.me/${SELLER_WHATSAPP}`,
     },
@@ -277,7 +277,7 @@ export default function ContactPage() {
                           type="tel"
                           value={form.phone}
                           onChange={(e) => update('phone', e.target.value)}
-                          placeholder="+252 61 000 0000"
+                          placeholder="+252 61 955 0772"
                           className={`w-full px-4 py-3 rounded-xl bg-slate-950/60 border ${errors.phone ? 'border-red-500/60' : 'border-slate-800 focus:border-yellow-500/50'} text-slate-200 text-sm focus:outline-none transition-all placeholder:text-slate-600`}
                         />
                         {errors.phone && <p className="text-[11px] text-red-400 mt-1.5">{errors.phone}</p>}
